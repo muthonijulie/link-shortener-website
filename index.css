@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body{
     background-color: palevioletred;
     align-items: center;
@@ -8,7 +9,7 @@ body{
     background: bisque;
     padding: 90px;
     margin:15%;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .form1{
@@ -26,3 +27,8 @@ button{
    color: antiquewhite;
    display:none
 }
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+  }
